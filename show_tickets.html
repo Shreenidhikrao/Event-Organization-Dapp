@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Your tickets</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.2.7-rc.0/web3.min.js"></script>
+	  <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="app.js"></script>
+
+    <div class="navbar">
+      <a href="event_org.html">Home</a>
+      <a href="create_event.html">Create event</a>
+      <a href="buy_tickets.html">Buy Tickets</a>
+      <a href="show_tickets.html">Show Tickets</a>
+      <a href="transfer_tickets.html">Transfer Tickets</a>
+      <div class="dropdown">
+        <button class="dropbtn">Connection
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <button onclick="connectMetamask()">Metamask</button>
+        <p id="accountArea"></p>
+        <button onclick="connectContract()">Contract</button> <br>
+        <p id="contractArea"></p>
+        </div>
+      </div> 
+      </div>
+
+	</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<div class="login-box">
+<form>
+    <h2>Show Tickets</h2>
+
+    <div class="user-box">    
+    <input type="number" id="showEventId" name="showeventId" required /><br />
+    <label for="eventId">Event ID:</label>
+   </div>
+
+    <div class="user-box">    
+    <input type="text" id="address" name="address" required />
+    <label for="quantity">Address:</label>
+  </div>
+  <div id="showp">
+    <p id="tickets"></p>
+  </div>
+    <button type="button" onclick="viewTicket()">Show Ticket</button>
+  </form>
+</div>
+  <script src="app.js"></script>
+</html>

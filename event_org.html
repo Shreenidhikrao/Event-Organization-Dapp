@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    <title>Event Organisation</title>
+	<div class="navbar">
+		<a href="event_org.html">Home</a>
+		<a href="create_event.html">Create event</a>
+		<a href="buy_tickets.html">Buy Tickets</a>
+		<a href="show_tickets.html">Show Tickets</a>
+		<a href="transfer_tickets.html">Transfer Tickets</a>
+		<div class="dropdown">
+		  <button class="dropbtn">Connection
+			<i class="fa fa-caret-down"></i>
+		  </button>
+		  <div class="dropdown-content">
+			<button onclick="connectMetamask()">Metamask</button>
+			<p id="accountArea"></p>
+			<button onclick="connectContract()">Contract</button> <br>
+			<p id="contractArea"></p>
+		  </div>
+		</div> 
+	  </div>
+
+	
+	  <script src="app.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.2.7-rc.0/web3.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h2>Web3 App for Event Organisation</h2>
+
+<div id="get">
+	<label>Enter which event to be displayed :</label>
+	<input type="text" id="show_event"><br><br>	
+	<button onclick="getMembers()">GET EVENT INFO </button> <br>
+	<p id="next_id1"></p>
+	<p id="next_id2"></p>
+	<p id="next_id3"></p>
+	<p id="next_id4"></p>
+	<p id="next_id5"></p>
+</div>	
+</body>	
+</html>
