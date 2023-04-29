@@ -25,10 +25,9 @@ Before running the Dapp, you need to have the following:
 The Dapp allows you to organize events and manage attendees using Ethereum blockchain. You can create an event, set the ticket price, and manage the attendees. The attendees can buy tickets using Ethereum cryptocurrency.
 
 To use the Dapp, follow these steps:
-1. Open the HTML file in your browser
-2. Connect your Metamask account
+1. Open the event_org.html file in your browser
+2. Connect your Metamask account and smart contract
 3. Create an event by filling out the form
 4. Set the ticket price
-5. Manage the attendees by adding or removing them
-6. The attendees can buy tickets by sending Ethereum to the contract address
+5. The attendees can buy tickets by sending Ethereum to the contract address
 
