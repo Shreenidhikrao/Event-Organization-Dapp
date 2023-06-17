@@ -2,6 +2,8 @@
 
 This is a decentralized application (Dapp) for organizing events using Ethereum blockchain. The Dapp is developed using Solidity smart contracts and can be deployed on any Ethereum network.
 
+The website is live on : www.evenorganisationdapp.great-site.net
+
 ## Prerequisites
 
 Before running the Dapp, you need to have the following:
